@@ -1,36 +1,45 @@
-# City-Art-Walker
+# CityArt Walker
 
-**City-At Walker** is an AR (Augmented Reality) location-based app that brings a **virtual art gallery** experience to the real world. By walking around different physical locations, users can discover and explore digital artworks seamlessly integrated into their surroundings.
+**CityArt Walker** is an Augmented Reality (AR) location-based app that transforms your city into a digital exhibition. Explore a **virtual art gallery** anchored to real-world locations, using your mobile device and AR technology.
 
-## 🌐 Features
+## 🎨 Features
 
-- 📍 **Location-Based AR:** Unlock virtual artworks at specific real-world locations.
-- 🖼️ **Virtual Art Gallery:** Experience curated digital art as if it's placed in your environment.
-- 📱 **Unity-Powered Experience:** Built using Unity for smooth and immersive AR interactions.
+- 📍 **Location-Based AR:** View virtual artworks tied to specific GPS coordinates.
+- 🖼️ **Virtual Art Gallery:** Curated digital art accessible via your surroundings.
+- 🌐 **Outdoor & City-Friendly:** Designed for use while walking around cities or landmarks.
+- 🛠️ **Built with Unity & AR Foundation**
 
-## 📦 How to Run
+## 📂 How to Run the Project
 
-To explore the City-At Walker app, follow these steps:
+Follow these steps to run the project from this repository:
 
-1. **Clone or Download** this repository.
-2. Download the Unity package:
-   - [Download `package.unity`](./package.unity)
-3. Open **Unity Hub** and import the `package.unity` file into a new or existing Unity project.
-4. Make sure to enable:
-   - AR Foundation
-   - Location Services (GPS)
-5. Build and run the app on a compatible **AR-enabled mobile device**.
+1. **Clone the Repository**
+   ```bash
+   git clone https://bitbucket.org/vineetpandey0307/cityart-walker.git
+Open in Unity
 
-## 🧰 Requirements
+Launch Unity Hub
 
-- **Unity Version:** Recommended 2021.3 LTS or later
-- **AR Support:** AR Foundation, ARKit/ARCore
-- **Platform:** Android / iOS with AR capabilities and GPS enabled
+Click Add and select the cloned project folder (cityart-walker)
 
-## 📄 License
+Open the project
 
-This project is for educational/demo purposes. All rights to original artworks remain with their respective creators.
+Set Up
 
----
+Ensure the following packages are installed via Unity Package Manager:
 
-Feel free to modify this `README.md` to match your branding or add more technical details as your project evolves.
+AR Foundation
+
+ARKit XR Plugin (for iOS) or ARCore XR Plugin (for Android)
+
+Enable GPS / Location Services in Player Settings
+
+Set the proper build platform: Android or iOS
+
+Build and Run
+
+Connect a compatible mobile device
+
+Click File > Build Settings, select your platform, and click Build and Run
+
+✅ Make sure your device supports AR (ARKit for iOS or ARCore for Android).
